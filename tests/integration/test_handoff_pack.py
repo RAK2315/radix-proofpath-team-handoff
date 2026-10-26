@@ -27,15 +27,12 @@ def test_all_guides_assets_labels_and_computed_matrix():
 
     features = ["jd_analytics", "resume_parsing", "profile_builder", "talent_check", "skill_matching"]
     for feature in features:
-        assert len(PdfReader(Path(feature) / "GUIDE.pdf").pages) >= 5
+        assert 8 <= len(PdfReader(Path(feature) / "START_HERE.pdf").pages) <= 10
         for name in [
-            "README.md",
-            "requirements.txt",
+            "START_HERE.md",
             "run.ps1",
-            "TESTING.md",
-            "DELIVERY.md",
-            "request-example.json",
-            "response-example.json",
+            "samples/input.json",
+            "samples/output.json",
         ]:
             assert (Path(feature) / name).is_file(), (feature, name)
     folder = Path("data/synthetic/reconstructed")

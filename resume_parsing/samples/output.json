@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "id": "ad46106d-5cc7-496a-9d08-80c6cd58e2e3",
+  "revision": 1,
+  "source_type": "resume",
+  "source_file": "practice-cv-SYNTHETIC.pdf",
+  "company": null,
+  "role": null,
+  "skills": [
+    {
+      "skill_id": "a6ce5f95-27f9-43d3-945d-56e537022803",
+      "skill_name": "Python",
+      "category_code": "COD",
+      "skill_family": "Programming Languages",
+      "evidence": "Python",
+      "confidence": "medium",
+      "source_page": 1,
+      "source_file": "practice-cv-SYNTHETIC.pdf",
+      "source_document_id": "6a7af17a-635d-4efd-9587-f2cef80f28df",
+      "source_type": "document",
+      "evidence_type": "project_mention",
+      "verification_status": "unverified",
+      "claim_status": "claimed",
+      "claim_basis": "explicit",
+      "normalized_name": null,
+      "source_start": null,
+      "source_end": null
+    }
+  ],
+  "requirement_groups": [],
+  "name": "Asha Sample (synthetic)",
+  "email": "asha@example.test",
+  "education": ["Fictional Computing College - invented course."],
+  "projects": ["Built a small Python quiz for invented training exercises."],
+  "experience": [],
+  "certifications": [],
+  "internships": [],
+  "hackathons": [],
+  "achievements": [],
+  "sections": [
+    {
+      "page": 1,
+      "text": "SYNTHETIC TEACHING CV - NOT A REAL PERSON\n\n\nName: Asha Sample (synthetic)\n\nEmail: asha@example.test\n\nTechnical Skills\n\nPython\n\nProjects\n\nBuilt a small Python quiz for invented training exercises.\n\nEducation\n\nFictional Computing College - invented course."
+    }
+  ],
+  "review_status": "needs_review",
+  "extraction_mode": "local_limited",
+  "parser_version": "local-layout-review-1.3",
+  "input_method": "file",
+  "model_version": null,
+  "prompt_version": null,
+  "llm_status": "rules_only",
+  "llm_metadata": {},
+  "warnings": [
+    "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+  ],
+  "document_id": "6a7af17a-635d-4efd-9587-f2cef80f28df"
+}

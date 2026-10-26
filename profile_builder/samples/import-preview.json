@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "id": "ef48d32c-10a8-4f61-b34c-582ccf5b359b",
+  "revision": 1,
+  "name": "Asha Sample (synthetic)",
+  "email": "asha@example.test",
+  "education": ["Invented computing course"],
+  "skills": [
+    {
+      "skill_id": "d862fb7e-f848-421d-b7f4-70d0855d20a8",
+      "skill_name": "Python",
+      "category_code": "COD",
+      "skill_family": "Programming Languages",
+      "evidence": "Python, SQL, Pandas, NumPy, Git, Linux.",
+      "confidence": "medium",
+      "source_page": 1,
+      "source_file": "mira-cv-SYNTHETIC.pdf",
+      "source_document_id": "d3bfb7c5-075c-4a51-96d0-97f716a4f6fe",
+      "source_type": "document",
+      "evidence_type": "resume_mention",
+      "verification_status": "unverified",
+      "claim_status": "claimed",
+      "claim_basis": "explicit",
+      "normalized_name": null,
+      "source_start": null,
+      "source_end": null
+    },
+    {
+      "skill_id": "c025f1d9-df4b-4208-9825-330c08dd0073",
+      "skill_name": "Git",
+      "category_code": "SWE",
+      "skill_family": "Engineering Practices",
+      "evidence": "Python, SQL, Pandas, NumPy, Git, Linux.",
+      "confidence": "medium",
+      "source_page": 1,
+      "source_file": "mira-cv-SYNTHETIC.pdf",
+      "source_document_id": "d3bfb7c5-075c-4a51-96d0-97f716a4f6fe",
+      "source_type": "document",
+      "evidence_type": "resume_mention",
+      "verification_status": "unverified",
+      "claim_status": "claimed",
+      "claim_basis": "explicit",
+      "normalized_name": null,
+      "source_start": null,
+      "source_end": null
+    },
+    {
+      "skill_id": "48c86c13-7382-47e2-b1d4-9dd09a667c5f",
+      "skill_name": "SQL",
+      "category_code": "SQL",
+      "skill_family": "Databases",
+      "evidence": "Python, SQL, Pandas, NumPy, Git, Linux.",
+      "confidence": "medium",
+      "source_page": 1,
+      "source_file": "mira-cv-SYNTHETIC.pdf",
+      "source_document_id": "d3bfb7c5-075c-4a51-96d0-97f716a4f6fe",
+      "source_type": "document",
+      "evidence_type": "resume_mention",
+      "verification_status": "unverified",
+      "claim_status": "claimed",
+      "claim_basis": "explicit",
+      "normalized_name": null,
+      "source_start": null,
+      "source_end": null
+    },
+    {
+      "skill_id": "9238dd21-1b0c-4a98-8e4a-1d91771f832e",
+      "skill_name": "Linux",
+      "category_code": "OS",
+      "skill_family": "Networks & Operating Systems",
+      "evidence": "Python, SQL, Pandas, NumPy, Git, Linux.",
+      "confidence": "medium",
+      "source_page": 1,
+      "source_file": "mira-cv-SYNTHETIC.pdf",
+      "source_document_id": "d3bfb7c5-075c-4a51-96d0-97f716a4f6fe",
+      "source_type": "document",
+      "evidence_type": "resume_mention",
+      "verification_status": "unverified",
+      "claim_status": "claimed",
+      "claim_basis": "explicit",
+      "normalized_name": null,
+      "source_start": null,
+      "source_end": null
+    },
+    {
+      "skill_id": "5ae4f1c4-f552-49ab-9e52-da86d74b8e93",
+      "skill_name": "Pandas",
+      "category_code": "AI",
+      "skill_family": "Data Preparation & Analysis",
+      "evidence": "Python, SQL, Pandas, NumPy, Git, Linux.",
+      "confidence": "medium",
+      "source_page": 1,
+      "source_file": "mira-cv-SYNTHETIC.pdf",
+      "source_document_id": "d3bfb7c5-075c-4a51-96d0-97f716a4f6fe",
+      "source_type": "document",
+      "evidence_type": "resume_mention",
+      "verification_status": "unverified",
+      "claim_status": "claimed",
+      "claim_basis": "explicit",
+      "normalized_name": null,
+      "source_start": null,
+      "source_end": null
+    },
+    {
+      "skill_id": "7870279e-a488-4377-a620-ba8fa861e123",
+      "skill_name": "NumPy",
+      "category_code": "AI",
+      "skill_family": "Data Preparation & Analysis",
+      "evidence": "Python, SQL, Pandas, NumPy, Git, Linux.",
+      "confidence": "medium",
+      "source_page": 1,
+      "source_file": "mira-cv-SYNTHETIC.pdf",
+      "source_document_id": "d3bfb7c5-075c-4a51-96d0-97f716a4f6fe",
+      "source_type": "document",
+      "evidence_type": "resume_mention",
+      "verification_status": "unverified",
+      "claim_status": "claimed",
+      "claim_basis": "explicit",
+      "normalized_name": null,
+      "source_start": null,
+      "source_end": null
+    }
+  ],
+  "hackathons": [],
+  "internships": [
+    "Synthetic training placement - maintained a small reporting service."
+  ],
+  "certifications": ["Synthetic data practice badge - not a real credential"],
+  "preferred_roles": ["Junior Developer"],
+  "projects": [
+    "Built a Python and SQL pipeline for fictional parcel records.",
+    "Used Pandas and NumPy to prepare the input data on Linux.",
+    "Tracked changes with Git and wrote a reproducible project README."
+  ],
+  "experience": [],
+  "achievements": [],
+  "cv_file": "d3bfb7c5-075c-4a51-96d0-97f716a4f6fe",
+  "ratings": [
+    {
+      "category_code": "COD",
+      "level": null,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "DSA",
+      "level": null,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "OOD",
+      "level": null,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "APTI",
+      "level": null,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "COMM",
+      "level": null,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "AI",
+      "level": null,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "CLOUD",
+      "level": null,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "SQL",
+      "level": null,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "SWE",
+      "level": null,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "SYSD",
+      "level": null,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "NETW",
+      "level": null,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "OS",
+      "level": null,
+      "origin": "self_reported"
+    }
+  ]
+}

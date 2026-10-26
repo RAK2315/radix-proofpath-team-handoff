@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "path": "/api/jd/extract",
+  "encoding": "multipart/form-data",
+  "file": "practice-jd-SYNTHETIC.docx",
+  "hosted_consent": false
+}

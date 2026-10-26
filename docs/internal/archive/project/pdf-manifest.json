@@ -1,0 +1,77 @@
+[
+  {
+    "path": "jd_analytics/GUIDE.pdf",
+    "pages": 9,
+    "sha256": "b8b224b472e009a6d0d79da1c548aac92b33e02a7a4037cd0d315e71fcad7113"
+  },
+  {
+    "path": "resume_parsing/GUIDE.pdf",
+    "pages": 9,
+    "sha256": "31d629691fb4fab44b2971e0c7876de4834a999e1e41805b276cabdb06489524"
+  },
+  {
+    "path": "profile_builder/GUIDE.pdf",
+    "pages": 9,
+    "sha256": "7975114efec03c29eeb3f7ae818bef9d82dd5e6d808d077abb5d057563d34077"
+  },
+  {
+    "path": "talent_check/GUIDE.pdf",
+    "pages": 9,
+    "sha256": "86c726d9808790f185eedbb5a547c42246c5bf701b353c650053bf5e2248804e"
+  },
+  {
+    "path": "skill_matching/GUIDE.pdf",
+    "pages": 9,
+    "sha256": "0fbdb0c8d7b2700b69346fa4506ba3dd593476564b54662d5229c99cdfb6da99"
+  },
+  {
+    "path": "data/synthetic/reconstructed/ananya-rao.pdf",
+    "pages": 1,
+    "sha256": "a6ef46133911ab4315d1775cfacf7c68ae226fcd8418d1a75373b560575b6c1d"
+  },
+  {
+    "path": "data/synthetic/reconstructed/google-data-scientist.pdf",
+    "pages": 1,
+    "sha256": "e576c7b5bb58f0cb3d84ed968116fca6d9e9b9ce9f26ac6cf638061de47d294e"
+  },
+  {
+    "path": "data/synthetic/reconstructed/google-software-engineer.pdf",
+    "pages": 1,
+    "sha256": "70f0271236eff21268109679d907b3db00c511b2bf892fb8cff5edb50daee208"
+  },
+  {
+    "path": "data/synthetic/reconstructed/karthik-subramaniam.pdf",
+    "pages": 1,
+    "sha256": "abec876772a0337568c2bee18bf48fd9d3c4852d0b33c8e214ab0bcf4d17dec3"
+  },
+  {
+    "path": "data/synthetic/reconstructed/microsoft-data-analyst.pdf",
+    "pages": 1,
+    "sha256": "8efbba95195261ca1f1ea37a4c6571a4c5f468c2703a038df820a8361bc8e7a0"
+  },
+  {
+    "path": "data/synthetic/reconstructed/microsoft-software-engineer.pdf",
+    "pages": 1,
+    "sha256": "6392c3fb60fb52cc81a3a71347d36b6d1d1a933a93de2505c1802c5405d385d9"
+  },
+  {
+    "path": "data/synthetic/reconstructed/oracle-application-support-analyst.pdf",
+    "pages": 1,
+    "sha256": "80604f5427fce8f5ed3a660b5d852a92f240a8d565d2bbc4154ecd65a2faacd5"
+  },
+  {
+    "path": "data/synthetic/reconstructed/oracle-associate-software-engineer.pdf",
+    "pages": 1,
+    "sha256": "d08fbd8dd3b4132831cd0cbe4bbae634c376027d9d857c5eb0f2f51f4d553a75"
+  },
+  {
+    "path": "data/synthetic/reconstructed/priya-menon.pdf",
+    "pages": 1,
+    "sha256": "c327e4124495abac519c3761ddd4eb8fb3ae35ed1aef1e3ea99f025ad399788d"
+  },
+  {
+    "path": "data/synthetic/reconstructed/rohan-verma.pdf",
+    "pages": 1,
+    "sha256": "a2f036f2310b3d372bb96b97eb590d5c49acf2a2b20f743e52f21607f8801a4e"
+  }
+]

@@ -59,8 +59,9 @@ the older overview walkthrough and assume its numbers should equal Mira's.
 
 Stop the integrated servers before using the same ports. From root, run `MODULE/run.ps1 api` and
 `MODULE/run.ps1 web` in separate terminals, then use **Load synthetic inputs** where upstream records are
-needed. This supplies pre-reviewed snapshots, not fresh LLM extraction. Each module PDF page 8 gives
-its own four-minute script. Each teammate must demonstrate their own tested checkout and return its SHA.
+needed. This supplies pre-reviewed snapshots, not fresh LLM extraction. Each START_HERE guide's test
+section gives its live checks, and its final section gives a 45-second explanation and judge questions.
+Each teammate must demonstrate their own tested checkout and return its SHA.
 
 ## Automated rehearsal and evidence
 

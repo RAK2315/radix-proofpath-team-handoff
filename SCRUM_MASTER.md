@@ -1,61 +1,63 @@
-# Scrum Master: distribute, receive, integrate
+# Scrum Master: distribute and integrate
 
-The teammates **own and publish their own repositories**. They do not need to merge into this repository.
-Give each person the root repository link plus their module folder link. Because this repo is private,
-invite them under GitHub Settings -> Collaborators first, or distribute an approved clean ZIP. Never send keys.
+Invite teammates to this private repository through Settings -> Collaborators. Send each person the
+repository link, their assigned folder link and **only that folder's START_HERE.pdf** as the main guide.
+They clone the whole repository for shared dependencies. START_HERE.md has the same teaching content;
+the PDF alone is sufficient to ask an AI for help understanding the task. Code edits still require
+the exact source files named inside it. Historical documents are not assigned reading.
 
-| Module | Folder / guide / source | Synthetic assets | Access needed | Return | Your integration check |
-|---|---|---|---|---|---|
-| JD Analytics | `jd_analytics/` | Six reconstructed JDs, unknown/layout fixtures, Mira JD | None for rules; own/private Groq key for live test | Own repo + commit, source tests, review/source screenshots | Reviewed Extraction -> Module 5; AND/OR and importance correct |
-| Resume Parsing | `resume_parsing/` | Four fictional CVs, unfamiliar/layout fixtures, Mira CV | None for rules; own/private Groq key for live test | Own repo + commit, section/evidence test results | Reviewed Extraction -> Module 3; all ratings remain unknown |
-| Profile Builder | `profile_builder/` | Saved resume/profile JSON, Mira sources | Local SQLite; no cloud needed | Own repo + commit, create/import/save/reload/delete evidence | Same saved Profile/revision used by Modules 4 and 5 |
-| Talent Check | `talent_check/` | Invented 12-category benchmarks and rated profiles | None for synthetic; organizer read access is pending | Own repo + commit, arithmetic/unknown/source errors | Twelve rows, deterministic formula, no unofficial standards |
-| Matching / GPS | `skill_matching/` | Reviewed JD/profile, full match/scenario JSON | None for synthetic; Module 4 pure code in same clone | Own repo + commit, 75->87.5/reset/non-mutation evidence | Correct group coverage, source chain, pure GPS |
+| Person | Folder | Independent input | Output to integrate |
+|---|---|---|---|
+| 1 | `jd_analytics/` | PDF/DOCX/pasted JD | Reviewed Extraction -> Module 5 |
+| 2 | `resume_parsing/` | PDF/DOCX CV | Reviewed Extraction -> Module 3 |
+| 3 | `profile_builder/` | Manual form or reviewed CV | Saved Profile -> Modules 4/5 |
+| 4 | `talent_check/` | Saved profile + chosen benchmark/company | Twelve rows + readiness |
+| 5 | `skill_matching/` | Saved profile + reviewed JD | Match/gaps + reversible GPS |
 
-## Resource status
+Common contracts, readers, persistence, UI helpers, dependency locks and composition remain stored
+once. Module 5 reuses Module 4's pure scorer/repository in the same clone, without a second server.
 
-- **AVAILABLE NOW:** all five module sources, local backend/frontend compositions, pinned dependencies,
-  exact contracts and automated unit/component/integration/browser checks.
-- **GENERATED SYNTHETICALLY:** six JD/four CV reconstructions (20 PDF/DOCX files), manual expected labels,
-  computed JSON/matrices, Mira journey and invented lab-company benchmarks. All visibly labelled.
-- **WAITING FOR ORGANIZER:** original six JDs/four CVs, real `staging_company_skill_levels` schema/authorized data.
-- **NEEDS YOUR CONFIGURATION:** real Groq key/live evaluation, Supabase credentials/RLS, HF/Vercel accounts,
-  any cloud deployment, actual teammate role names and presentation rehearsal. Do not block local work on these.
+## Receive working code
 
-## Receive a genuinely working part
+Teammates run `run.ps1 example` and `run.ps1 test`, fix demonstrated issues and push the full working
+clone to **their own private GitHub**. Require URL/access, tested commit SHA, changed files, actual
+commands/results, three normal + three failure cases, synthetic screenshots and known limitations.
+They do not need to merge centrally. Do not accept copied passing counts.
 
-Require `DELIVERY.md`: repo URL, immutable commit SHA, changed-file list, actual commands/results,
-three normal + three failure cases, input/output/source screenshots and known limitations.
-Ask the teammate to demonstrate the independent module running from their own checkout.
-Do not accept copied passing numbers or a screenshot without repeatable setup and calculations.
-Names in the synthetic reconstructed CVs are fictional; they are not team members.
+## Integrate
 
-## Your integration sequence
+1. Keep this verified baseline. Clone each returned repository separately and verify its exact SHA.
+2. Run its documented setup/tests. Compare owned feature changes before transferring them into an
+   integration checkout. Review shared/schema/provider/storage changes deliberately.
+3. Preserve one `shared/contracts/models.py`, OpenAPI and TypeScript contract. Example UUIDs in guides
+   are snapshots. Integrate with real returned IDs, current revisions and owned source-document links.
+4. Wire JD -> Resume -> reviewed import/Profile save -> Talent Check -> Matching/GPS. Import is a draft;
+   ensure saved human corrections reach downstream assessments.
+5. Rehearse `docs/DEMO_GUIDE.md`: Mira 74.9 readiness, 75 match, Docker 87.5, SQL 9 projects 79.5 readiness,
+   reset and unchanged profile. The tiny Asha teaching cases intentionally have different inputs/scores.
+6. Run all checks, inspect failures, scan staged files and freeze the tested SHA.
 
-1. Preserve this verified baseline as a recoverable reference. Clone each returned repository into its own
-   directory, record its URL/SHA and run the exact setup and module tests from `DELIVERY.md`.
-2. Compare the teammate's feature folder with the baseline. Transfer their feature changes into an integration
-   checkout. Shared-contract/provider/storage changes need deliberate review because every consumer depends on them.
-   Never combine virtualenvs, private SQLite stores, `.env` files or node_modules from teammates.
-3. Use one canonical `shared/contracts/models.py`, OpenAPI and generated TypeScript version. Validate the returned
-   JSON examples; keep `OTHER` outside the twelve rated categories. Do not equate confidence with competency.
-4. Wire in this order: JD -> Resume -> Profile save/import -> Talent Check -> Matching/GPS. Check actual IDs,
-   revisions, source document ownership and that human corrections reach downstream computations.
-5. Run all module checks and `pytest`, frontend tests, typecheck/lint/build and both browser suites.
-   Check synthetic scores against source requirements, not against candidate names.
-6. Re-run the Mira journey: five JD groups, six CV skills, unknown ratings before deliberate synthetic input,
-   74.9 readiness, 75 JD match, Docker 87.5, SQL target readiness 79.5, reset and unchanged saved profile.
-7. Scan staged files, save actual test evidence and freeze a known-good submission. Configure genuine standards
-   only with authorized read access; never write organizer staging tables or silently replace missing data with lab values.
+```powershell
+# Clear module selection in a new terminal so all five browser projects run:
+Remove-Item Env:RADIX_MODULE -ErrorAction SilentlyContinue
+.\.venv\Scripts\python.exe -m pytest -q
+npm run test
+npm run typecheck
+npm run lint
+npm run build
+npm run test:e2e
+npm run test:handoff
+.\.venv\Scripts\python.exe scripts/scan_handoff.py --staged
+```
 
-If a returned module fails, keep its changes isolated while the teammate fixes it. You own the integration
-decision; teammates are told to deliver working code to their own GitHub, not to solve central merges.
+Never combine `.env`, private stores, node_modules or virtual environments from teammates. Keep failed
+changes isolated while the owner fixes them. Preserve a recoverable working baseline.
 
-## What this handoff does not claim
+## Pending external checks
 
-Groq's direct strict-JSON integration is implemented/mock-tested, not live-verified. The attached broader
-implementation prompt's optional `langchain-groq` wrapper and authorized synthetic response cache have not
-been added by this packaging task. No official-data or cloud acceptance is implied. Report those separately
-if you decide they are needed; do not mislabel existing direct Groq calls as LangChain.
+Original six JDs/four CVs, authorized organizer benchmark schema/data, live Groq quality and live
+Supabase/RLS remain pending. Use labelled synthetic practice data now. Keep staging read-only and keys
+server-side. Unknown competency stays null; confidence is not competency. GPS never saves hypothetical
+claims. The passport stores current claims/revisions, not immutable history. No cloud deployment is assigned.
 
-`verification/RESULTS.md` contains new checkout evidence. Deployment is prepared but not executed.
+Current results are in `verification/RESULTS.md`. Historical detail remains in `docs/internal/archive/`.

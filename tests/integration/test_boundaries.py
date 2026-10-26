@@ -9,12 +9,14 @@ def test_feature_ownership_and_shared_import_boundaries():
             "backend/router.py",
             "frontend",
             "tests",
-            "README.md",
-            "PLAN.md",
-            "CONTRACT.md",
-            "USAGE.md",
+            "START_HERE.md",
+            "START_HERE.pdf",
+            "samples",
+            "run.ps1",
         ]:
             assert (Path(feature) / item).exists(), (feature, item)
+        for historical in ["PLAN.md", "CONTRACT.md", "USAGE.md"]:
+            assert (Path("docs/internal/archive") / feature / historical).exists()
     for file in Path("shared").rglob("*.py"):
         for node in ast.walk(ast.parse(file.read_text(encoding="utf-8"))):
             if isinstance(node, ast.ImportFrom):

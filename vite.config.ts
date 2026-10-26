@@ -43,7 +43,12 @@ export default defineConfig(({ mode }) => {
     test: {
       environment: "jsdom",
       include: ["**/*.test.ts", "**/*.test.tsx"],
-      exclude: ["node_modules/**", ".venv/**"],
+      exclude: [
+        "node_modules/**",
+        ".venv/**",
+        "verification/**",
+        "docs/internal/**",
+      ],
       setupFiles: ["./tests/frontend/setup.ts"],
     },
   };

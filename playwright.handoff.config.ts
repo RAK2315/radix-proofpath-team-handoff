@@ -7,12 +7,20 @@ const modules = [
   "talent_check",
   "skill_matching",
 ];
+const selected = process.env.RADIX_MODULE;
+if (selected && !modules.includes(selected)) {
+  throw new Error(`Unknown RADIX_MODULE: ${selected}`);
+}
+const active = modules
+  .map((name, index) => ({ name, index }))
+  .filter(({ name }) => !selected || name === selected);
 const python = resolve(
   process.platform === "win32"
     ? ".venv/Scripts/python.exe"
     : ".venv/bin/python",
 );
 export default defineConfig({
+  outputDir: "test-results/modules",
   testDir: "tests/handoff",
   workers: 1,
   timeout: 60000,
@@ -22,15 +30,15 @@ export default defineConfig({
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
   },
-  projects: modules.map((name, i) => ({
+  projects: active.map(({ name, index: i }) => ({
     name,
     use: { baseURL: `http://127.0.0.1:${5310 + i}` },
   })),
-  webServer: modules.flatMap(
-    (
+  webServer: active.flatMap(
+    ({
       name,
-      i,
-    ): {
+      index: i,
+    }): {
       command: string;
       url: string;
       reuseExistingServer: boolean;

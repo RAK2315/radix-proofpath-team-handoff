@@ -1,0 +1,9 @@
+{
+  "provenance": "SYNTHETIC teaching example; not organizer material",
+  "skills": ["Python"],
+  "category": "COD",
+  "review_status": "needs_review",
+  "llm_status": "rules_only",
+  "competency_inferred": false,
+  "note": "IDs vary. Check source words, sections and meaning, not just HTTP status."
+}

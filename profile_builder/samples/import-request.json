@@ -1,0 +1,10 @@
+{
+  "resume_id": "841baae1-c160-5194-98d3-1cc98db72fb7",
+  "profile": {
+    "name": "Asha Sample (synthetic)",
+    "email": "asha@example.test",
+    "education": ["Invented computing course"],
+    "preferred_roles": ["Junior Developer"]
+  },
+  "replace_existing": false
+}

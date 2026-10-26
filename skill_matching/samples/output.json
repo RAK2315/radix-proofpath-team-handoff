@@ -1,0 +1,63 @@
+{
+  "jd_source_file": "practice-jd-SYNTHETIC.txt",
+  "jd_id": "31649844-51e6-49ba-bab7-8a2fd58d8c4d",
+  "jd_revision": 1,
+  "profile_id": "59198fb6-bb16-45f0-8de6-dc3fa825fc8e",
+  "profile_revision": 1,
+  "match_score": 0.0,
+  "matched_skills": [],
+  "missing_skills": [
+    {
+      "requirement_id": "88b11eeb-6843-40f9-9958-4c3ab27a0af0",
+      "skill_name": "Python",
+      "category_code": "COD",
+      "matched": false,
+      "requirement_type": "mandatory",
+      "jd_evidence": {
+        "skill_id": "790da7da-908f-4536-a1ba-7ddceedd0ac3",
+        "skill_name": "Python",
+        "category_code": "COD",
+        "skill_family": "Programming Languages",
+        "evidence": "Required: Python",
+        "confidence": "medium",
+        "source_page": null,
+        "source_file": "practice-jd-SYNTHETIC.txt",
+        "source_document_id": "f12bd631-d25d-47aa-ab45-ac34c3bd8281",
+        "source_type": "document",
+        "evidence_type": "jd_requirement",
+        "verification_status": "unverified",
+        "claim_status": "claimed",
+        "claim_basis": "explicit",
+        "normalized_name": null,
+        "source_start": null,
+        "source_end": null
+      },
+      "candidate_evidence": null,
+      "decision_type": "missing",
+      "reason": "No equivalent reviewed skill claim found",
+      "suggested_review": [],
+      "recommended_action": "Review source coverage for Python; demonstrate existing ability or develop it if needed",
+      "score_contribution": 0.0
+    }
+  ],
+  "ambiguous_matches": [],
+  "contributions": [
+    {
+      "requirement_id": "88b11eeb-6843-40f9-9958-4c3ab27a0af0",
+      "operator": "AND",
+      "requirement_type": "mandatory",
+      "skills": ["Python"],
+      "weight": 2,
+      "coverage": 0.0,
+      "weighted_contribution": 0.0,
+      "requires_review": false,
+      "member_count": 1,
+      "matched_count": 0,
+      "score_contribution": 0.0
+    }
+  ],
+  "rules_version": "match-1.3-incomplete-extraction-disclosure",
+  "status": "complete",
+  "methodology": "Weighted extracted requirement-group coverage: mandatory 2, preferred/unspecified 1 (team heuristic). AND fraction, OR any. Unparsed requirement warnings keep the result provisional until reviewed. Confidence is not competency; named technologies require equivalent claims.",
+  "receipt_id": "22b84051-f5d3-4e82-b1ae-0f7733770fe6"
+}

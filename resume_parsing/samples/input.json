@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "path": "/api/resumes/extract",
+  "encoding": "multipart/form-data",
+  "file": "practice-cv-SYNTHETIC.pdf",
+  "hosted_consent": false
+}

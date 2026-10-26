@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "id": "84027300-d488-4f39-a1ab-c1e6f8573e61",
+  "revision": 1,
+  "name": "Asha Sample (synthetic)",
+  "email": "",
+  "education": [],
+  "skills": [],
+  "hackathons": [],
+  "internships": [],
+  "certifications": [],
+  "preferred_roles": [],
+  "projects": [],
+  "experience": [],
+  "achievements": [],
+  "cv_file": null,
+  "ratings": [
+    {
+      "category_code": "COD",
+      "level": 4.0,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "DSA",
+      "level": 4.0,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "OOD",
+      "level": 4.0,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "APTI",
+      "level": 4.0,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "COMM",
+      "level": 4.0,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "AI",
+      "level": 4.0,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "CLOUD",
+      "level": 4.0,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "SQL",
+      "level": 4.0,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "SWE",
+      "level": 4.0,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "SYSD",
+      "level": 4.0,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "NETW",
+      "level": 4.0,
+      "origin": "self_reported"
+    },
+    {
+      "category_code": "OS",
+      "level": 4.0,
+      "origin": "self_reported"
+    }
+  ]
+}
