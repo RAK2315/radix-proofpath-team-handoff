@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "id": "8ddd5b64-c6ea-4ae9-a035-fd0ed69c8121",
+  "revision": 2,
+  "source_type": "resume",
+  "source_file": "synthetic-resume.docx",
+  "company": null,
+  "role": null,
+  "skills": [
+    {
+      "skill_id": "63003ff0-3aff-4af4-8102-bc3c8b7ad927",
+      "skill_name": "Python",
+      "category_code": "COD",
+      "evidence": "Python, SQL, Git, Linux",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-resume.docx",
+      "source_document_id": "4c367a42-35cd-4d4e-83c8-016edca3e91a",
+      "source_type": "document",
+      "evidence_type": "resume_mention",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    },
+    {
+      "skill_id": "fdb08609-ecd8-45ae-a87b-2f30e2285ddd",
+      "skill_name": "Git",
+      "category_code": "SWE",
+      "evidence": "Python, SQL, Git, Linux",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-resume.docx",
+      "source_document_id": "4c367a42-35cd-4d4e-83c8-016edca3e91a",
+      "source_type": "document",
+      "evidence_type": "resume_mention",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    },
+    {
+      "skill_id": "c2cab4c4-1f73-4d94-86bb-a237919b1317",
+      "skill_name": "SQL",
+      "category_code": "SQL",
+      "evidence": "Python, SQL, Git, Linux",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-resume.docx",
+      "source_document_id": "4c367a42-35cd-4d4e-83c8-016edca3e91a",
+      "source_type": "document",
+      "evidence_type": "resume_mention",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    },
+    {
+      "skill_id": "77971b10-2759-4dce-b92c-e7c734474623",
+      "skill_name": "Linux",
+      "category_code": "OS",
+      "evidence": "Python, SQL, Git, Linux",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-resume.docx",
+      "source_document_id": "4c367a42-35cd-4d4e-83c8-016edca3e91a",
+      "source_type": "document",
+      "evidence_type": "resume_mention",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    }
+  ],
+  "requirement_groups": [],
+  "name": "Synthetic Candidate Alpha",
+  "email": "alpha@example.test",
+  "education": ["Synthetic Institute - computing degree (test fixture)"],
+  "projects": ["Built Python and SQL services with Git and Linux"],
+  "experience": ["Synthetic practice internship - API development"],
+  "certifications": ["Synthetic SQL practice certificate"],
+  "internships": [],
+  "hackathons": [],
+  "achievements": [],
+  "sections": [
+    {
+      "page": null,
+      "text": "Synthetic Candidate Alpha\nalpha@example.test\nSYNTHETIC TEST RESUME - no real person\nSkills\nPython, SQL, Git, Linux\nEducation\nSynthetic Institute - computing degree (test fixture)\nProjects\nBuilt Python and SQL services with Git and Linux\nExperience\nSynthetic practice internship - API development\nCertifications\nSynthetic SQL practice certificate"
+    }
+  ],
+  "review_status": "reviewed",
+  "extraction_mode": "local_limited",
+  "parser_version": "local-layout-vocabulary-1.1",
+  "input_method": "file",
+  "model_version": null,
+  "prompt_version": null,
+  "warnings": [
+    "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+  ],
+  "document_id": "4c367a42-35cd-4d4e-83c8-016edca3e91a"
+}

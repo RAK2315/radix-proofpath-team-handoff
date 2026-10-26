@@ -1,0 +1,13 @@
+{
+  "profile_id": "b3a2dddc-7e63-5437-a1ef-f85a9f887f4c",
+  "jd_id": "8ff95599-3f83-5a69-993f-7a5df3b52e2e",
+  "company_id": "lab-data",
+  "benchmark_mode": "synthetic",
+  "profile_revision": 1,
+  "jd_revision": 2,
+  "benchmark_hash": "c465f2868ffe4ba8db4bfbd23d7000a6064e318c9887809e0fc0f2a1fd0c3aa5",
+  "category_overrides": {
+    "SQL": 9.0
+  },
+  "skill_overrides": ["Docker"]
+}

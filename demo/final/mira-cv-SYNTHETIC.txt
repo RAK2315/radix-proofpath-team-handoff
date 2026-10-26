@@ -1,0 +1,17 @@
+Name: Mira Sen (synthetic)
+SYNTHETIC DEMONSTRATION RESUME - no real person
+mira@example.test
+Summary
+Early-career candidate with a small portfolio of data services.
+Technical skills
+Python, SQL, Pandas, NumPy, Git, Linux.
+Selected work
+Built a Python and SQL pipeline for fictional parcel records.
+Used Pandas and NumPy to prepare the input data on Linux.
+Tracked changes with Git and wrote a reproducible project README.
+Internships
+Synthetic training placement - maintained a small reporting service.
+Education
+Synthetic Institute - BSc Computing (invented qualification)
+Certifications
+Synthetic data practice badge - not a real credential

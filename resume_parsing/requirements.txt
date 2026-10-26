@@ -1,0 +1,2 @@
+# Install from repository root with -r resume_parsing/requirements.txt
+-r ../requirements.lock.txt

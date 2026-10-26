@@ -1,0 +1,2 @@
+# Install from repository root with -r profile_builder/requirements.txt
+-r ../requirements.lock.txt

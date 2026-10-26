@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "id": "730388ab-8131-4e97-8e89-b8cfac601769",
+  "revision": 2,
+  "source_type": "jd",
+  "source_file": "synthetic-jd.docx",
+  "company": "Synthetic Systems Co",
+  "role": "Platform Engineer",
+  "skills": [
+    {
+      "skill_id": "0c7f4569-5992-49d8-8ca5-fae50dd80019",
+      "skill_name": "Python",
+      "category_code": "COD",
+      "evidence": "Required: Python and SQL",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-jd.docx",
+      "source_document_id": "baed6ed0-a896-49de-b2a8-1eaf05f1ab21",
+      "source_type": "document",
+      "evidence_type": "jd_requirement",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    },
+    {
+      "skill_id": "ba8d59bc-f7ec-465e-9094-d9915c18b5b3",
+      "skill_name": "Communication",
+      "category_code": "COMM",
+      "evidence": "Communication and system design",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-jd.docx",
+      "source_document_id": "baed6ed0-a896-49de-b2a8-1eaf05f1ab21",
+      "source_type": "document",
+      "evidence_type": "jd_requirement",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    },
+    {
+      "skill_id": "72e59838-dea3-4700-a78b-c30f9a93dbc3",
+      "skill_name": "AWS",
+      "category_code": "CLOUD",
+      "evidence": "Preferred: Kubernetes or AWS",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-jd.docx",
+      "source_document_id": "baed6ed0-a896-49de-b2a8-1eaf05f1ab21",
+      "source_type": "document",
+      "evidence_type": "jd_requirement",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    },
+    {
+      "skill_id": "1def9148-eba8-423f-a1bd-e47747f4033a",
+      "skill_name": "Docker",
+      "category_code": "CLOUD",
+      "evidence": "Required: Docker and Linux",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-jd.docx",
+      "source_document_id": "baed6ed0-a896-49de-b2a8-1eaf05f1ab21",
+      "source_type": "document",
+      "evidence_type": "jd_requirement",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    },
+    {
+      "skill_id": "44f16e14-8ca8-474b-9526-8d849f4aa087",
+      "skill_name": "Kubernetes",
+      "category_code": "CLOUD",
+      "evidence": "Preferred: Kubernetes or AWS",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-jd.docx",
+      "source_document_id": "baed6ed0-a896-49de-b2a8-1eaf05f1ab21",
+      "source_type": "document",
+      "evidence_type": "jd_requirement",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    },
+    {
+      "skill_id": "859219be-0ca3-425d-8dc2-783e0bc33df2",
+      "skill_name": "SQL",
+      "category_code": "SQL",
+      "evidence": "Required: Python and SQL",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-jd.docx",
+      "source_document_id": "baed6ed0-a896-49de-b2a8-1eaf05f1ab21",
+      "source_type": "document",
+      "evidence_type": "jd_requirement",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    },
+    {
+      "skill_id": "44f243a1-133c-412d-bf15-5ad0ee45be41",
+      "skill_name": "System Design",
+      "category_code": "SYSD",
+      "evidence": "Communication and system design",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-jd.docx",
+      "source_document_id": "baed6ed0-a896-49de-b2a8-1eaf05f1ab21",
+      "source_type": "document",
+      "evidence_type": "jd_requirement",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    },
+    {
+      "skill_id": "2d50a63f-fa4e-4b25-80dd-e667a60e015d",
+      "skill_name": "Linux",
+      "category_code": "OS",
+      "evidence": "Required: Docker and Linux",
+      "confidence": "medium",
+      "source_page": null,
+      "source_file": "synthetic-jd.docx",
+      "source_document_id": "baed6ed0-a896-49de-b2a8-1eaf05f1ab21",
+      "source_type": "document",
+      "evidence_type": "jd_requirement",
+      "verification_status": "unverified",
+      "claim_status": "claimed"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "requirement_id": "086be547-1c74-4697-a3a0-0b881391eae1",
+      "skill_ids": [
+        "0c7f4569-5992-49d8-8ca5-fae50dd80019",
+        "859219be-0ca3-425d-8dc2-783e0bc33df2"
+      ],
+      "operator": "AND",
+      "requirement_type": "mandatory",
+      "requires_review": false,
+      "evidence": "Required: Python and SQL",
+      "source_page": null
+    },
+    {
+      "requirement_id": "762d8f2a-5dcc-45e2-9abf-d906d76a70f3",
+      "skill_ids": [
+        "1def9148-eba8-423f-a1bd-e47747f4033a",
+        "2d50a63f-fa4e-4b25-80dd-e667a60e015d"
+      ],
+      "operator": "AND",
+      "requirement_type": "mandatory",
+      "requires_review": false,
+      "evidence": "Required: Docker and Linux",
+      "source_page": null
+    },
+    {
+      "requirement_id": "a993a2b8-433a-4359-9295-d9826fa4add3",
+      "skill_ids": [
+        "72e59838-dea3-4700-a78b-c30f9a93dbc3",
+        "44f16e14-8ca8-474b-9526-8d849f4aa087"
+      ],
+      "operator": "OR",
+      "requirement_type": "preferred",
+      "requires_review": false,
+      "evidence": "Preferred: Kubernetes or AWS",
+      "source_page": null
+    },
+    {
+      "requirement_id": "7620d3d4-490e-46f7-bbcd-763033c72d0d",
+      "skill_ids": [
+        "ba8d59bc-f7ec-465e-9094-d9915c18b5b3",
+        "44f243a1-133c-412d-bf15-5ad0ee45be41"
+      ],
+      "operator": "AND",
+      "requirement_type": "unspecified",
+      "requires_review": false,
+      "evidence": "Communication and system design",
+      "source_page": null
+    }
+  ],
+  "name": "",
+  "email": "",
+  "education": [],
+  "projects": [],
+  "experience": [],
+  "certifications": [],
+  "internships": [],
+  "hackathons": [],
+  "achievements": [],
+  "sections": [
+    {
+      "page": null,
+      "text": "SYNTHETIC TEST DOCUMENT - invented role and company\nCompany: Synthetic Systems Co\nRole: Platform Engineer\nKey Responsibilities\nRequired: Python and SQL\nRequired: Docker and Linux\nPreferred: Kubernetes or AWS\nCommunication and system design"
+    }
+  ],
+  "review_status": "reviewed",
+  "extraction_mode": "local_limited",
+  "parser_version": "local-layout-vocabulary-1.1",
+  "input_method": "file",
+  "model_version": null,
+  "prompt_version": null,
+  "warnings": [
+    "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+  ],
+  "document_id": "baed6ed0-a896-49de-b2a8-1eaf05f1ab21"
+}

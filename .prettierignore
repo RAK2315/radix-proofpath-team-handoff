@@ -1,0 +1,11 @@
+node_modules/
+.venv/
+.venv-deploy/
+deploy/hf-space*/
+dist/
+test-results/
+playwright-report/
+data/private/
+shared/contracts/generated.ts
+shared/contracts/openapi.json
+package-lock.json

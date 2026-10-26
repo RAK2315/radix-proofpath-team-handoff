@@ -1,0 +1,12 @@
+**/.env*
+**/.venv*
+**/__pycache__
+**/*.pyc
+node_modules
+data/private
+data/original
+data/company_benchmarks
+test-results
+playwright-report
+releases
+.git

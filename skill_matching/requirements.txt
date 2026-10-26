@@ -1,0 +1,2 @@
+# Install from repository root with -r skill_matching/requirements.txt
+-r ../requirements.lock.txt

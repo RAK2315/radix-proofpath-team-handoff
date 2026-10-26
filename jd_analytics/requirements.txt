@@ -1,0 +1,2 @@
+# Install from repository root with -r jd_analytics/requirements.txt
+-r ../requirements.lock.txt

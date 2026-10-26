@@ -1,0 +1,64 @@
+{
+  "provenance": "SYNTHETIC candidate, company, documents, benchmark levels and all-twelve-level-4 self-ratings. Not official organizer data or an actual person's assessment.",
+  "candidate": "Mira Sen (synthetic)",
+  "job": "Junior Data Engineer (synthetic)",
+  "company": "Synthetic Data Co",
+  "company_id": "lab-data",
+  "ratings": {
+    "COD": 4,
+    "DSA": 4,
+    "OOD": 4,
+    "APTI": 4,
+    "COMM": 4,
+    "AI": 4,
+    "CLOUD": 4,
+    "SQL": 4,
+    "SWE": 4,
+    "SYSD": 4,
+    "NETW": 4,
+    "OS": 4
+  },
+  "skill_count": 6,
+  "baseline_match": 75.0,
+  "baseline_readiness": 74.9,
+  "scenarios": {
+    "none": {
+      "match": 75.0,
+      "readiness": 74.9,
+      "match_delta": 0.0,
+      "readiness_delta": 0.0
+    },
+    "docker": {
+      "match": 87.5,
+      "readiness": 74.9,
+      "match_delta": 12.5,
+      "readiness_delta": 0.0
+    },
+    "docker_and_aws": {
+      "match": 100.0,
+      "readiness": 74.9,
+      "match_delta": 25.0,
+      "readiness_delta": 0.0
+    },
+    "sql_target": {
+      "match": 75.0,
+      "readiness": 79.5,
+      "match_delta": 0.0,
+      "readiness_delta": 4.6
+    },
+    "combined": {
+      "match": 87.5,
+      "readiness": 79.5,
+      "match_delta": 12.5,
+      "readiness_delta": 4.6
+    }
+  },
+  "receipt_replay_equal": true,
+  "saved_profile_unchanged": true,
+  "source_sha256": {
+    "mira-cv-SYNTHETIC.pdf": "24096ec2b2e6c58529fab3fcbc3afcec42acd302231c89cd33215bcd87970e7e",
+    "mira-cv-SYNTHETIC.docx": "b0d42f954cc24d7115d9dd8effb5de60d43b58578290f5088f519c6105ebad2d",
+    "junior-data-engineer-jd-SYNTHETIC.pdf": "fd8ea513e896893d36cb9c2f5bedb0a6afc957627098bd28668fdce2d7665282",
+    "junior-data-engineer-jd-SYNTHETIC.docx": "55ed2f178e5a622d12c6ed4755dda028839aa3be22ab4abf7eb37b01bfb2a32b"
+  }
+}

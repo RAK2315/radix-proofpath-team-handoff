@@ -1,0 +1,671 @@
+{
+  "scope": "Synthetic development evaluation: 12 invented documents rendered in PDF and DOCX; not held out, independent or official. Metrics count distinct named skills per document/format. Negated mentions are expected extractions marked for review, not positive competency claims.",
+  "documents": 24,
+  "true_positives": 80,
+  "false_positives": 2,
+  "false_negatives": 22,
+  "precision": 0.9756,
+  "recall": 0.7843,
+  "records": [
+    {
+      "id": "resume-demo-mira",
+      "kind": "resume",
+      "format": "pdf",
+      "true_positives": ["Git", "Linux", "NumPy", "Pandas", "Python", "SQL"],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": true,
+      "sections_correct": {
+        "projects": false,
+        "internships": false,
+        "education": true
+      },
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "resume-demo-mira",
+      "kind": "resume",
+      "format": "docx",
+      "true_positives": ["Git", "Linux", "NumPy", "Pandas", "Python", "SQL"],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": true,
+      "sections_correct": {
+        "projects": false,
+        "internships": false,
+        "education": true
+      },
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "resume-banner",
+      "kind": "resume",
+      "format": "pdf",
+      "true_positives": ["C#", "C++", "JavaScript", "React", "TypeScript"],
+      "false_positives": ["HTTP"],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": false,
+      "sections_correct": {
+        "projects": false
+      },
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "resume-banner",
+      "kind": "resume",
+      "format": "docx",
+      "true_positives": ["C#", "C++", "JavaScript", "React", "TypeScript"],
+      "false_positives": ["HTTP"],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": false,
+      "sections_correct": {
+        "projects": false
+      },
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "resume-negated",
+      "kind": "resume",
+      "format": "pdf",
+      "true_positives": ["Java", "Kubernetes", "Python", "SQL"],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": ["Java", "Kubernetes", "SQL"],
+      "review_expected": ["Java", "Kubernetes", "SQL"],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred.",
+        "Conflicting or negated skill mentions need review before they count toward a match."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "resume-negated",
+      "kind": "resume",
+      "format": "docx",
+      "true_positives": ["Java", "Kubernetes", "Python", "SQL"],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": ["Java", "Kubernetes", "SQL"],
+      "review_expected": ["Java", "Kubernetes", "SQL"],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred.",
+        "Conflicting or negated skill mentions need review before they count toward a match."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "resume-action-alias",
+      "kind": "resume",
+      "format": "pdf",
+      "true_positives": [
+        "Communication",
+        "Model Deployment",
+        "Predictive Modeling",
+        "Problem Solving",
+        "Python",
+        "Render",
+        "Statistics",
+        "scikit-learn"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "resume-action-alias",
+      "kind": "resume",
+      "format": "docx",
+      "true_positives": [
+        "Communication",
+        "Model Deployment",
+        "Predictive Modeling",
+        "Problem Solving",
+        "Python",
+        "Render",
+        "Statistics",
+        "scikit-learn"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "resume-implicit-unfamiliar",
+      "kind": "resume",
+      "format": "pdf",
+      "true_positives": ["Python"],
+      "false_positives": [],
+      "false_negatives": ["Data Cleaning", "Rust"],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "resume-implicit-unfamiliar",
+      "kind": "resume",
+      "format": "docx",
+      "true_positives": ["Python"],
+      "false_positives": [],
+      "false_negatives": ["Data Cleaning", "Rust"],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "resume-two-column",
+      "kind": "resume",
+      "format": "pdf",
+      "true_positives": ["PostgreSQL", "Python"],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": true,
+      "sections_correct": {
+        "projects": false,
+        "internships": false
+      },
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "resume-two-column",
+      "kind": "resume",
+      "format": "docx",
+      "true_positives": ["PostgreSQL", "Python"],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": true,
+      "sections_correct": {
+        "projects": false,
+        "internships": true
+      },
+      "groups_correct": null,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "jd-demo-data",
+      "kind": "jd",
+      "format": "pdf",
+      "true_positives": [],
+      "false_positives": [],
+      "false_negatives": [
+        "AWS",
+        "Docker",
+        "GCP",
+        "Linux",
+        "Pandas",
+        "Python",
+        "SQL"
+      ],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": false,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ],
+      "source_quotes_valid": true,
+      "verification": []
+    },
+    {
+      "id": "jd-demo-data",
+      "kind": "jd",
+      "format": "docx",
+      "true_positives": [],
+      "false_positives": [],
+      "false_negatives": [
+        "AWS",
+        "Docker",
+        "GCP",
+        "Linux",
+        "Pandas",
+        "Python",
+        "SQL"
+      ],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": false,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ],
+      "source_quotes_valid": true,
+      "verification": []
+    },
+    {
+      "id": "jd-required-and-alternative",
+      "kind": "jd",
+      "format": "pdf",
+      "true_positives": ["Docker", "Java", "Python", "SQL"],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": false,
+      "groups_actual": [
+        {
+          "skills": ["Docker"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Java", "Python"],
+          "importance": "mandatory",
+          "operator": "OR",
+          "review": false
+        },
+        {
+          "skills": ["SQL"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        }
+      ],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "jd-required-and-alternative",
+      "kind": "jd",
+      "format": "docx",
+      "true_positives": ["Docker", "Java", "Python", "SQL"],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": false,
+      "groups_actual": [
+        {
+          "skills": ["Docker"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Java", "Python"],
+          "importance": "mandatory",
+          "operator": "OR",
+          "review": false
+        },
+        {
+          "skills": ["SQL"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        }
+      ],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "jd-contradictory",
+      "kind": "jd",
+      "format": "pdf",
+      "true_positives": ["Java", "Python", "SQL"],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": ["Java"],
+      "review_expected": ["Java"],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": true,
+      "groups_actual": [
+        {
+          "skills": ["Java"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": true
+        },
+        {
+          "skills": ["Java", "Python", "SQL"],
+          "importance": "mandatory",
+          "operator": "OR",
+          "review": true
+        }
+      ],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review.",
+        "Mixed AND/OR wording requires explicit group review: - Python and SQL or Java."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "jd-contradictory",
+      "kind": "jd",
+      "format": "docx",
+      "true_positives": ["Java", "Python", "SQL"],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": ["Java"],
+      "review_expected": ["Java"],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": true,
+      "groups_actual": [
+        {
+          "skills": ["Java"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": true
+        },
+        {
+          "skills": ["Java", "Python", "SQL"],
+          "importance": "mandatory",
+          "operator": "OR",
+          "review": true
+        }
+      ],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review.",
+        "Mixed AND/OR wording requires explicit group review: - Python and SQL or Java."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "jd-two-column",
+      "kind": "jd",
+      "format": "pdf",
+      "true_positives": [
+        "AWS",
+        "Communication",
+        "Docker",
+        "Linux",
+        "Python",
+        "SQL"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": false,
+      "groups_actual": [
+        {
+          "skills": ["AWS", "SQL"],
+          "importance": "unspecified",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Communication", "Linux"],
+          "importance": "unspecified",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Docker", "Python"],
+          "importance": "unspecified",
+          "operator": "AND",
+          "review": false
+        }
+      ],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "jd-two-column",
+      "kind": "jd",
+      "format": "docx",
+      "true_positives": [
+        "AWS",
+        "Communication",
+        "Docker",
+        "Linux",
+        "Python",
+        "SQL"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": false,
+      "groups_actual": [
+        {
+          "skills": ["AWS"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Communication"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Docker"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Linux"],
+          "importance": "preferred",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Python"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["SQL"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        }
+      ],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "jd-empty-domain",
+      "kind": "jd",
+      "format": "pdf",
+      "true_positives": [],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": true,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ],
+      "source_quotes_valid": true,
+      "verification": []
+    },
+    {
+      "id": "jd-empty-domain",
+      "kind": "jd",
+      "format": "docx",
+      "true_positives": [],
+      "false_positives": [],
+      "false_negatives": [],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": true,
+      "groups_actual": [],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ],
+      "source_quotes_valid": true,
+      "verification": []
+    },
+    {
+      "id": "jd-unfamiliar-tech",
+      "kind": "jd",
+      "format": "pdf",
+      "true_positives": ["Python"],
+      "false_positives": [],
+      "false_negatives": ["Apache Arrow", "Rust"],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": null,
+      "groups_actual": [
+        {
+          "skills": ["Python"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        }
+      ],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    },
+    {
+      "id": "jd-unfamiliar-tech",
+      "kind": "jd",
+      "format": "docx",
+      "true_positives": ["Python"],
+      "false_positives": [],
+      "false_negatives": ["Apache Arrow", "Rust"],
+      "review_actual": [],
+      "review_expected": [],
+      "name_correct": null,
+      "sections_correct": {},
+      "groups_correct": null,
+      "groups_actual": [
+        {
+          "skills": ["Python"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        }
+      ],
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ],
+      "source_quotes_valid": true,
+      "verification": ["unverified"]
+    }
+  ]
+}

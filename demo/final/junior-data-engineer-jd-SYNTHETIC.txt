@@ -1,0 +1,12 @@
+SYNTHETIC DEMONSTRATION JOB - invented company and role
+Company: Synthetic Data Co
+Role: Junior Data Engineer (synthetic)
+What you bring
+- You must know Python and SQL.
+- Hands-on experience with Pandas.
+- Comfortable working on Linux.
+Helpful extras
+- Docker would be useful.
+- Familiarity with AWS or GCP is a bonus.
+Responsibilities
+- Build dependable data pipelines for fictional parcel records.

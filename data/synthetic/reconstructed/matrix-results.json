@@ -1,0 +1,207 @@
+{
+  "provenance": "SYNTHETIC RECONSTRUCTION - NOT OFFICIAL ORGANIZER DATA",
+  "mode": "Rules only; no live Groq or official data",
+  "observations": [
+    {
+      "id": "google-software-engineer",
+      "format": "pdf",
+      "missing": ["Testing"],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "google-software-engineer",
+      "format": "docx",
+      "missing": ["Testing"],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "google-data-scientist",
+      "format": "pdf",
+      "missing": [],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "google-data-scientist",
+      "format": "docx",
+      "missing": [],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "microsoft-software-engineer",
+      "format": "pdf",
+      "missing": ["Testing"],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "microsoft-software-engineer",
+      "format": "docx",
+      "missing": ["Testing"],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "microsoft-data-analyst",
+      "format": "pdf",
+      "missing": [],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "microsoft-data-analyst",
+      "format": "docx",
+      "missing": [],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "oracle-associate-software-engineer",
+      "format": "pdf",
+      "missing": ["Testing"],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "oracle-associate-software-engineer",
+      "format": "docx",
+      "missing": ["Testing"],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "oracle-application-support-analyst",
+      "format": "pdf",
+      "missing": [],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "oracle-application-support-analyst",
+      "format": "docx",
+      "missing": [],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "ananya-rao",
+      "format": "pdf",
+      "missing": [],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "ananya-rao",
+      "format": "docx",
+      "missing": [],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "karthik-subramaniam",
+      "format": "pdf",
+      "missing": [],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "karthik-subramaniam",
+      "format": "docx",
+      "missing": [],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "priya-menon",
+      "format": "pdf",
+      "missing": [],
+      "extra": ["Problem Solving"],
+      "quotes_valid": true
+    },
+    {
+      "id": "priya-menon",
+      "format": "docx",
+      "missing": [],
+      "extra": ["Problem Solving"],
+      "quotes_valid": true
+    },
+    {
+      "id": "rohan-verma",
+      "format": "pdf",
+      "missing": ["Shell Scripting"],
+      "extra": [],
+      "quotes_valid": true
+    },
+    {
+      "id": "rohan-verma",
+      "format": "docx",
+      "missing": [],
+      "extra": [],
+      "quotes_valid": true
+    }
+  ],
+  "matching": {
+    "ananya-rao": {
+      "google-software-engineer": 87.5,
+      "google-data-scientist": 28.6,
+      "microsoft-software-engineer": 66.7,
+      "microsoft-data-analyst": 41.7,
+      "oracle-associate-software-engineer": 77.8,
+      "oracle-application-support-analyst": 60.0
+    },
+    "karthik-subramaniam": {
+      "google-software-engineer": 31.2,
+      "google-data-scientist": 92.9,
+      "microsoft-software-engineer": 33.3,
+      "microsoft-data-analyst": 100.0,
+      "oracle-associate-software-engineer": 44.4,
+      "oracle-application-support-analyst": 40.0
+    },
+    "priya-menon": {
+      "google-software-engineer": 18.8,
+      "google-data-scientist": 14.3,
+      "microsoft-software-engineer": 16.7,
+      "microsoft-data-analyst": 50.0,
+      "oracle-associate-software-engineer": 33.3,
+      "oracle-application-support-analyst": 100.0
+    },
+    "rohan-verma": {
+      "google-software-engineer": 87.5,
+      "google-data-scientist": 100.0,
+      "microsoft-software-engineer": 83.3,
+      "microsoft-data-analyst": 100.0,
+      "oracle-associate-software-engineer": 77.8,
+      "oracle-application-support-analyst": 100.0
+    }
+  },
+  "synthetic_readiness": {
+    "ananya-rao": {
+      "lab-systems": 83.1,
+      "lab-data": 85.6,
+      "lab-support": 91.9
+    },
+    "karthik-subramaniam": {
+      "lab-systems": 68.3,
+      "lab-data": 85.4,
+      "lab-support": 89.6
+    },
+    "priya-menon": {
+      "lab-systems": 54.3,
+      "lab-data": 61.1,
+      "lab-support": 74.1
+    },
+    "rohan-verma": {
+      "lab-systems": 99.0,
+      "lab-data": 98.0,
+      "lab-support": 99.0
+    }
+  },
+  "direction_checks": {
+    "distinct_candidate_score_vectors": true,
+    "data_candidate_data_average_exceeds_swe_average": true,
+    "support_candidate_support_exceeds_google_swe": true
+  }
+}

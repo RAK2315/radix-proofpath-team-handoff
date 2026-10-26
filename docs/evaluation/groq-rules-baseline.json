@@ -1,0 +1,797 @@
+{
+  "status": "Rules baseline only; live model EXTERNALLY BLOCKED until configured and explicitly run",
+  "scope": "14 invented sources (7 JD / 7 CV), each PDF/DOCX. Existing 12-source development set plus 2 new injection probes; not a held-out generalization claim.",
+  "records_count": 28,
+  "live_calls_succeeded": 0,
+  "true_positives": 98,
+  "false_positives": 0,
+  "false_negatives": 8,
+  "precision": 1.0,
+  "recall": 0.9245283018867925,
+  "records": [
+    {
+      "id": "resume-demo-mira",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Git", "Linux", "NumPy", "Pandas", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 16,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ]
+    },
+    {
+      "id": "resume-demo-mira",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Git", "Linux", "NumPy", "Pandas", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ]
+    },
+    {
+      "id": "resume-banner",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["C#", "C++", "JavaScript", "React", "TypeScript"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ]
+    },
+    {
+      "id": "resume-banner",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["C#", "C++", "JavaScript", "React", "TypeScript"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ]
+    },
+    {
+      "id": "resume-negated",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Java", "Kubernetes", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred.",
+        "Conflicting or negated skill mentions need review before they count toward a match."
+      ]
+    },
+    {
+      "id": "resume-negated",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Java", "Kubernetes", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred.",
+        "Conflicting or negated skill mentions need review before they count toward a match."
+      ]
+    },
+    {
+      "id": "resume-action-alias",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": [
+        "Communication",
+        "Model Deployment",
+        "Predictive Modeling",
+        "Problem Solving",
+        "Python",
+        "Render",
+        "Statistics",
+        "scikit-learn"
+      ],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ]
+    },
+    {
+      "id": "resume-action-alias",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": [
+        "Communication",
+        "Model Deployment",
+        "Predictive Modeling",
+        "Problem Solving",
+        "Python",
+        "Render",
+        "Statistics",
+        "scikit-learn"
+      ],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ]
+    },
+    {
+      "id": "resume-implicit-unfamiliar",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Python"],
+      "fp": [],
+      "fn": ["Data Cleaning", "Rust"],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ]
+    },
+    {
+      "id": "resume-implicit-unfamiliar",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Python"],
+      "fp": [],
+      "fn": ["Data Cleaning", "Rust"],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ]
+    },
+    {
+      "id": "resume-two-column",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["PostgreSQL", "Python"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred.",
+        "Two-column reading order reconstructed; check section boundaries and quotes against the original PDF."
+      ]
+    },
+    {
+      "id": "resume-two-column",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["PostgreSQL", "Python"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred."
+      ]
+    },
+    {
+      "id": "jd-demo-data",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["AWS", "Docker", "GCP", "Linux", "Pandas", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": true,
+      "groups": [
+        {
+          "skills": ["Python", "SQL"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Pandas"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Linux"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Docker"],
+          "operator": "AND",
+          "importance": "preferred"
+        },
+        {
+          "skills": ["AWS", "GCP"],
+          "operator": "OR",
+          "importance": "preferred"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 16,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ]
+    },
+    {
+      "id": "jd-demo-data",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["AWS", "Docker", "GCP", "Linux", "Pandas", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": true,
+      "groups": [
+        {
+          "skills": ["Python", "SQL"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Pandas"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Linux"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Docker"],
+          "operator": "AND",
+          "importance": "preferred"
+        },
+        {
+          "skills": ["AWS", "GCP"],
+          "operator": "OR",
+          "importance": "preferred"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ]
+    },
+    {
+      "id": "jd-required-and-alternative",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Docker", "Java", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": false,
+      "groups": [
+        {
+          "skills": ["Java", "Python"],
+          "operator": "OR",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["SQL"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Docker"],
+          "operator": "AND",
+          "importance": "preferred"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ]
+    },
+    {
+      "id": "jd-required-and-alternative",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Docker", "Java", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": false,
+      "groups": [
+        {
+          "skills": ["Java", "Python"],
+          "operator": "OR",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["SQL"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Docker"],
+          "operator": "AND",
+          "importance": "preferred"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ]
+    },
+    {
+      "id": "jd-contradictory",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Java", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": false,
+      "groups": [
+        {
+          "skills": ["Java"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Java", "Python", "SQL"],
+          "operator": "OR",
+          "importance": "mandatory"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 15,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review.",
+        "Mixed AND/OR wording requires explicit group review: - Python and SQL or Java."
+      ]
+    },
+    {
+      "id": "jd-contradictory",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Java", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": false,
+      "groups": [
+        {
+          "skills": ["Java"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Java", "Python", "SQL"],
+          "operator": "OR",
+          "importance": "mandatory"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review.",
+        "Mixed AND/OR wording requires explicit group review: - Python and SQL or Java."
+      ]
+    },
+    {
+      "id": "jd-two-column",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["AWS", "Communication", "Docker", "Linux", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": true,
+      "groups": [
+        {
+          "skills": ["Python"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["SQL"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Linux"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Docker"],
+          "operator": "AND",
+          "importance": "preferred"
+        },
+        {
+          "skills": ["AWS"],
+          "operator": "AND",
+          "importance": "preferred"
+        },
+        {
+          "skills": ["Communication"],
+          "operator": "AND",
+          "importance": "preferred"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review.",
+        "Two-column reading order reconstructed; check section boundaries and quotes against the original PDF."
+      ]
+    },
+    {
+      "id": "jd-two-column",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["AWS", "Communication", "Docker", "Linux", "Python", "SQL"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": true,
+      "groups": [
+        {
+          "skills": ["Python"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["SQL"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Linux"],
+          "operator": "AND",
+          "importance": "mandatory"
+        },
+        {
+          "skills": ["Docker"],
+          "operator": "AND",
+          "importance": "preferred"
+        },
+        {
+          "skills": ["AWS"],
+          "operator": "AND",
+          "importance": "preferred"
+        },
+        {
+          "skills": ["Communication"],
+          "operator": "AND",
+          "importance": "preferred"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ]
+    },
+    {
+      "id": "jd-empty-domain",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "groups_correct": true,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ]
+    },
+    {
+      "id": "jd-empty-domain",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "groups_correct": true,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review."
+      ]
+    },
+    {
+      "id": "jd-unfamiliar-tech",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Python"],
+      "fp": [],
+      "fn": ["Apache Arrow", "Rust"],
+      "groups_correct": null,
+      "groups": [
+        {
+          "skills": ["Python"],
+          "operator": "AND",
+          "importance": "mandatory"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review.",
+        "Requirement not fully parsed; review/add missing members: - Python and Rust",
+        "Requirement not fully parsed; review/add missing members: - Apache Arrow"
+      ]
+    },
+    {
+      "id": "jd-unfamiliar-tech",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Python"],
+      "fp": [],
+      "fn": ["Apache Arrow", "Rust"],
+      "groups_correct": null,
+      "groups": [
+        {
+          "skills": ["Python"],
+          "operator": "AND",
+          "importance": "mandatory"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review.",
+        "Requirement not fully parsed; review/add missing members: - Python and Rust",
+        "Requirement not fully parsed; review/add missing members: - Apache Arrow"
+      ]
+    },
+    {
+      "id": "jd-injection-probe",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Python"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [
+        {
+          "skills": ["Python"],
+          "operator": "AND",
+          "importance": "mandatory"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review.",
+        "Instruction-like document text is untrusted; inspect the source before accepting claims."
+      ]
+    },
+    {
+      "id": "jd-injection-probe",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Python"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [
+        {
+          "skills": ["Python"],
+          "operator": "AND",
+          "importance": "mandatory"
+        }
+      ],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local vocabulary extraction; implicit requirements and unfamiliar technologies need manual review.",
+        "Instruction-like document text is untrusted; inspect the source before accepting claims."
+      ]
+    },
+    {
+      "id": "resume-injection-probe",
+      "format": "pdf",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Python"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 15,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred.",
+        "Instruction-like document text is untrusted; inspect the source before accepting claims."
+      ]
+    },
+    {
+      "id": "resume-injection-probe",
+      "format": "docx",
+      "status": "not_requested",
+      "model": null,
+      "live_processed": false,
+      "tp": ["Python"],
+      "fp": [],
+      "fn": [],
+      "groups_correct": null,
+      "groups": [],
+      "grounding_valid": true,
+      "injection_excluded": true,
+      "all_competency_unknown": true,
+      "elapsed_ms": 0,
+      "metadata": {},
+      "warnings": [
+        "Limited local extraction. Review name, section boundaries and skills; no ability levels inferred.",
+        "Instruction-like document text is untrusted; inspect the source before accepting claims."
+      ]
+    }
+  ]
+}

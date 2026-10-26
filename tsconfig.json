@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "types": ["vite/client", "vitest/globals", "node"]
+  },
+  "include": [
+    "apps/**/*.ts",
+    "apps/**/*.tsx",
+    "shared/**/*.ts",
+    "shared/**/*.tsx",
+    "jd_analytics/frontend/**/*",
+    "resume_parsing/frontend/**/*",
+    "profile_builder/frontend/**/*",
+    "talent_check/frontend/**/*",
+    "skill_matching/frontend/**/*",
+    "vite.config.ts",
+    "playwright.config.ts",
+    "playwright.cloud.config.ts",
+    "tests/frontend/**/*",
+    "tests/e2e/**/*",
+    "tests/cloud/**/*",
+    "vite.module.config.ts",
+    "playwright.handoff.config.ts",
+    "tests/handoff/**/*"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "source_mode": "synthetic_test",
+  "source_table": "synthetic_fixture_not_RADIX",
+  "fetched_at": null,
+  "notice": "SYNTHETIC LAB DATA. Invented companies and levels for testing only; not official RADIX expectations.",
+  "companies": [
+    {
+      "id": "lab-systems",
+      "name": "Synthetic Systems Co",
+      "levels": {
+        "COD": 8,
+        "DSA": 8,
+        "OOD": 7,
+        "APTI": 6,
+        "COMM": 6,
+        "AI": 3,
+        "CLOUD": 7,
+        "SQL": 6,
+        "SWE": 8,
+        "SYSD": 8,
+        "NETW": 6,
+        "OS": 7
+      }
+    },
+    {
+      "id": "lab-data",
+      "name": "Synthetic Data Co",
+      "levels": {
+        "COD": 7,
+        "DSA": 5,
+        "OOD": 4,
+        "APTI": 8,
+        "COMM": 7,
+        "AI": 8,
+        "CLOUD": 5,
+        "SQL": 9,
+        "SWE": 5,
+        "SYSD": 4,
+        "NETW": 3,
+        "OS": 4
+      }
+    },
+    {
+      "id": "lab-support",
+      "name": "Synthetic Support Co",
+      "levels": {
+        "COD": 4,
+        "DSA": 3,
+        "OOD": 3,
+        "APTI": 5,
+        "COMM": 8,
+        "AI": 2,
+        "CLOUD": 4,
+        "SQL": 6,
+        "SWE": 4,
+        "SYSD": 3,
+        "NETW": 7,
+        "OS": 7
+      }
+    }
+  ]
+}

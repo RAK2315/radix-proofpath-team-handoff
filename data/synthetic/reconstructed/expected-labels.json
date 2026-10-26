@@ -1,0 +1,175 @@
+{
+  "provenance": "SYNTHETIC RECONSTRUCTION - NOT OFFICIAL ORGANIZER DATA",
+  "ground_truth": "Manually specified skills and importance from the authoring specification; not model-derived.",
+  "cases": [
+    {
+      "id": "google-software-engineer",
+      "kind": "jd",
+      "company": "Google",
+      "role": "Software Engineer",
+      "required": [
+        "Java",
+        "Data Structures",
+        "Algorithms",
+        "Object-Oriented Design",
+        "Git",
+        "Testing",
+        "System Design",
+        "Communication"
+      ],
+      "preferred": ["Python", "Linux"]
+    },
+    {
+      "id": "google-data-scientist",
+      "kind": "jd",
+      "company": "Google",
+      "role": "Data Scientist",
+      "required": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Statistics",
+        "Pandas",
+        "NumPy"
+      ],
+      "preferred": ["PyTorch", "AWS"]
+    },
+    {
+      "id": "microsoft-software-engineer",
+      "kind": "jd",
+      "company": "Microsoft",
+      "role": "Software Engineer",
+      "required": [
+        "C#",
+        "Object-Oriented Design",
+        "REST APIs",
+        "Testing",
+        "SQL",
+        "Git"
+      ],
+      "preferred": ["Docker", "System Design"]
+    },
+    {
+      "id": "microsoft-data-analyst",
+      "kind": "jd",
+      "company": "Microsoft",
+      "role": "Data Analyst",
+      "required": ["SQL", "Excel", "Power BI", "Statistics", "Communication"],
+      "preferred": ["Python", "Pandas"]
+    },
+    {
+      "id": "oracle-associate-software-engineer",
+      "kind": "jd",
+      "company": "Oracle Financial Services",
+      "role": "Associate Software Engineer",
+      "required": ["Java", "SQL", "Git", "Object-Oriented Design"],
+      "preferred": ["Linux", "Testing"]
+    },
+    {
+      "id": "oracle-application-support-analyst",
+      "kind": "jd",
+      "company": "Oracle Financial Services",
+      "role": "Application Support Analyst",
+      "required": ["SQL", "Linux", "Networking", "Communication"],
+      "preferred": ["Shell Scripting", "TCP/IP"]
+    },
+    {
+      "id": "ananya-rao",
+      "kind": "resume",
+      "name": "Ananya Rao",
+      "orientation": "Systems-oriented generalist",
+      "skills": [
+        "Java",
+        "Python",
+        "C++",
+        "Data Structures",
+        "Algorithms",
+        "Object-Oriented Design",
+        "Git",
+        "Linux",
+        "Testing",
+        "REST APIs",
+        "System Design",
+        "SQL",
+        "Docker",
+        "Communication"
+      ],
+      "project": "Built Java REST APIs with SQL storage and unit testing. Used Git and Docker on Linux.",
+      "ratings": [7, 7, 6, 6, 5, 2, 5, 5, 7, 6, 5, 6]
+    },
+    {
+      "id": "karthik-subramaniam",
+      "kind": "resume",
+      "name": "Karthik Subramaniam",
+      "orientation": "Data-oriented analyst",
+      "skills": [
+        "Python",
+        "SQL",
+        "Pandas",
+        "NumPy",
+        "Machine Learning",
+        "Statistics",
+        "Power BI",
+        "Excel",
+        "PyTorch",
+        "Git",
+        "Communication"
+      ],
+      "project": "Built Python and SQL reports using Pandas, NumPy, Power BI and Excel. Evaluated machine learning experiments with PyTorch.",
+      "ratings": [6, 4, 3, 7, 6, 7, 4, 8, 4, 3, 3, 4]
+    },
+    {
+      "id": "priya-menon",
+      "kind": "resume",
+      "name": "Priya Menon",
+      "orientation": "Entry-level support-oriented candidate",
+      "skills": [
+        "SQL",
+        "Linux",
+        "Networking",
+        "Communication",
+        "Shell Scripting",
+        "TCP/IP",
+        "Excel"
+      ],
+      "project": "Prepared SQL troubleshooting notes and Linux checks. Used shell scripting and TCP/IP exercises to practice support tasks.",
+      "ratings": [3, 2, 2, 5, 7, 1, 3, 5, 3, 2, 5, 5]
+    },
+    {
+      "id": "rohan-verma",
+      "kind": "resume",
+      "name": "Rohan Verma",
+      "orientation": "Broad all-rounder",
+      "skills": [
+        "Java",
+        "Python",
+        "C++",
+        "C#",
+        "Data Structures",
+        "Algorithms",
+        "Object-Oriented Design",
+        "Git",
+        "Linux",
+        "Testing",
+        "REST APIs",
+        "System Design",
+        "SQL",
+        "Docker",
+        "Communication",
+        "Pandas",
+        "NumPy",
+        "Machine Learning",
+        "Statistics",
+        "Power BI",
+        "Excel",
+        "PyTorch",
+        "AWS",
+        "Networking",
+        "Shell Scripting",
+        "TCP/IP"
+      ],
+      "project": "Built Java and C# REST APIs with SQL, Git, unit testing and Docker. Created Python analytics using Pandas, NumPy, machine learning and AWS.",
+      "ratings": [8, 8, 7, 8, 7, 7, 7, 8, 8, 7, 7, 7]
+    }
+  ]
+}

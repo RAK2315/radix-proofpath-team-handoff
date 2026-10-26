@@ -1,0 +1,2 @@
+# Install from repository root with -r talent_check/requirements.txt
+-r ../requirements.lock.txt

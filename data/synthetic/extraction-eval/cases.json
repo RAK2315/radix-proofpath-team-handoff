@@ -1,0 +1,375 @@
+{
+  "provenance": "All people, employers and text invented for this development evaluation, 26 October 2026. Expected outputs were specified before the first run. Not a held-out or official benchmark.",
+  "cases": [
+    {
+      "id": "resume-demo-mira",
+      "kind": "resume",
+      "layout": "plain",
+      "lines": [
+        "Name: Mira Sen (synthetic)",
+        "SYNTHETIC DEMONSTRATION RESUME - no real person",
+        "mira@example.test",
+        "Summary",
+        "Early-career candidate with a small portfolio of data services.",
+        "Technical skills",
+        "Python, SQL, Pandas, NumPy, Git, Linux.",
+        "Selected work",
+        "Built a Python and SQL pipeline for fictional parcel records.",
+        "Used Pandas and NumPy to prepare the input data on Linux.",
+        "Tracked changes with Git and wrote a reproducible project README.",
+        "Internships",
+        "Synthetic training placement - maintained a small reporting service.",
+        "Education",
+        "Synthetic Institute - BSc Computing (invented qualification)",
+        "Certifications",
+        "Synthetic data practice badge - not a real credential"
+      ],
+      "expected_skills": ["Python", "SQL", "Pandas", "NumPy", "Git", "Linux"],
+      "expected_name": "Mira Sen (synthetic)",
+      "expected_sections": {
+        "projects": "fictional parcel records",
+        "internships": "training placement",
+        "education": "BSc Computing"
+      },
+      "formats": ["pdf", "docx"]
+    },
+    {
+      "id": "resume-banner",
+      "kind": "resume",
+      "layout": "plain",
+      "lines": [
+        "SYNTHETIC TEST RESUME - invented person",
+        "Curriculum Vitae",
+        "Name: Ellis Vale (synthetic)",
+        "ellis@example.test",
+        "Portfolio: https://example.test/ellis",
+        "Core competencies",
+        "JavaScript, TypeScript, C++, C#",
+        "Project experience",
+        "Built a React interface using JavaScript and TypeScript.",
+        "Academic background",
+        "Synthetic College - diploma"
+      ],
+      "expected_skills": ["JavaScript", "TypeScript", "C++", "C#", "React"],
+      "expected_name": "Ellis Vale (synthetic)",
+      "expected_sections": { "projects": "React interface" },
+      "formats": ["pdf", "docx"]
+    },
+    {
+      "id": "resume-negated",
+      "kind": "resume",
+      "layout": "plain",
+      "lines": [
+        "Synthetic Rowan Profile",
+        "SYNTHETIC TEST DOCUMENT",
+        "Technical skills",
+        "Python; no Java experience.",
+        "Not experienced with Kubernetes.",
+        "NoSQL data store practice; never used SQL.",
+        "Projects",
+        "Built a Python practice utility."
+      ],
+      "expected_skills": ["Python", "Java", "Kubernetes", "SQL"],
+      "expected_review": ["Java", "Kubernetes", "SQL"],
+      "expected_claimed": ["Python"],
+      "formats": ["pdf", "docx"]
+    },
+    {
+      "id": "resume-action-alias",
+      "kind": "resume",
+      "layout": "plain",
+      "lines": [
+        "Synthetic Jules Profile",
+        "SYNTHETIC TEST DOCUMENT",
+        "Professional experience",
+        "Debugging Python services and technical presentations.",
+        "Selected projects",
+        "Created a forecasting pipeline using sklearn and deployed the API on Render.",
+        "Education",
+        "Synthetic Academy - statistics coursework"
+      ],
+      "expected_skills": [
+        "Problem Solving",
+        "Python",
+        "Communication",
+        "Predictive Modeling",
+        "scikit-learn",
+        "Model Deployment",
+        "Render",
+        "Statistics"
+      ],
+      "formats": ["pdf", "docx"]
+    },
+    {
+      "id": "resume-implicit-unfamiliar",
+      "kind": "resume",
+      "layout": "plain",
+      "lines": [
+        "Synthetic Morgan Profile",
+        "SYNTHETIC TEST DOCUMENT",
+        "Skills",
+        "Rust, Python",
+        "Projects",
+        "Removed repeated observations and imputed absent values in a fictional dataset."
+      ],
+      "expected_skills": ["Rust", "Python", "Data Cleaning"],
+      "expected_misses": ["Rust", "Data Cleaning"],
+      "formats": ["pdf", "docx"],
+      "note": "Intentionally retains unsupported language and implicit-description limitations; review should add these manually if accurate."
+    },
+    {
+      "id": "resume-two-column",
+      "kind": "resume",
+      "layout": "columns",
+      "header": [
+        "Name: Synthetic Casey Profile",
+        "SYNTHETIC TWO-COLUMN TEST DOCUMENT"
+      ],
+      "left": [
+        "Technical skills",
+        "Python, PostgreSQL",
+        "Education",
+        "Synthetic Institute - diploma"
+      ],
+      "right": [
+        "Selected projects",
+        "Built a Python utility.",
+        "Internship experience",
+        "Synthetic supervised placement."
+      ],
+      "expected_skills": ["Python", "PostgreSQL"],
+      "expected_name": "Synthetic Casey Profile",
+      "expected_sections": {
+        "projects": "Python utility",
+        "internships": "supervised placement"
+      },
+      "formats": ["pdf", "docx"]
+    },
+    {
+      "id": "jd-demo-data",
+      "kind": "jd",
+      "layout": "plain",
+      "lines": [
+        "SYNTHETIC DEMONSTRATION JOB - invented company and role",
+        "Company: Synthetic Data Co",
+        "Role: Junior Data Engineer (synthetic)",
+        "What you bring",
+        "- You must know Python and SQL.",
+        "- Hands-on experience with Pandas.",
+        "- Comfortable working on Linux.",
+        "Helpful extras",
+        "- Docker would be useful.",
+        "- Familiarity with AWS or GCP is a bonus.",
+        "Responsibilities",
+        "- Build dependable data pipelines for fictional parcel records."
+      ],
+      "expected_skills": [
+        "Python",
+        "SQL",
+        "Pandas",
+        "Linux",
+        "Docker",
+        "AWS",
+        "GCP"
+      ],
+      "expected_groups": [
+        {
+          "skills": ["Python", "SQL"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Pandas"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Linux"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Docker"],
+          "importance": "preferred",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["AWS", "GCP"],
+          "importance": "preferred",
+          "operator": "OR",
+          "review": false
+        }
+      ],
+      "formats": ["pdf", "docx"]
+    },
+    {
+      "id": "jd-required-and-alternative",
+      "kind": "jd",
+      "layout": "plain",
+      "lines": [
+        "SYNTHETIC TEST JOB",
+        "Company: Synthetic Choice Co",
+        "Role: Backend Developer",
+        "Required skills",
+        "- Python or Java",
+        "- SQL",
+        "Desirable skills",
+        "- Docker",
+        "- SQL"
+      ],
+      "expected_skills": ["Python", "Java", "SQL", "Docker"],
+      "expected_groups": [
+        {
+          "skills": ["Python", "Java"],
+          "importance": "mandatory",
+          "operator": "OR",
+          "review": false
+        },
+        {
+          "skills": ["SQL"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Docker"],
+          "importance": "preferred",
+          "operator": "AND",
+          "review": false
+        }
+      ],
+      "formats": ["pdf", "docx"]
+    },
+    {
+      "id": "jd-contradictory",
+      "kind": "jd",
+      "layout": "plain",
+      "lines": [
+        "SYNTHETIC TEST JOB",
+        "Company: Synthetic Contradiction Co",
+        "Role: Service Engineer",
+        "Requirements",
+        "- Java is not required.",
+        "- Must know Java.",
+        "- Python and SQL or Java."
+      ],
+      "expected_skills": ["Java", "Python", "SQL"],
+      "expected_review": ["Java"],
+      "expected_groups": [
+        {
+          "skills": ["Java"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": true
+        },
+        {
+          "skills": ["Python", "SQL", "Java"],
+          "importance": "mandatory",
+          "operator": "OR",
+          "review": true
+        }
+      ],
+      "formats": ["pdf", "docx"]
+    },
+    {
+      "id": "jd-two-column",
+      "kind": "jd",
+      "layout": "columns",
+      "header": [
+        "SYNTHETIC TWO-COLUMN TEST JOB",
+        "Company: Synthetic Layout Co",
+        "Role: Data Developer"
+      ],
+      "left": ["Requirements", "- Python", "- SQL", "- Linux"],
+      "right": [
+        "Preferred qualifications",
+        "- Docker",
+        "- AWS",
+        "- Communication"
+      ],
+      "expected_skills": [
+        "Python",
+        "SQL",
+        "Linux",
+        "Docker",
+        "AWS",
+        "Communication"
+      ],
+      "expected_groups": [
+        {
+          "skills": ["Python"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["SQL"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Linux"],
+          "importance": "mandatory",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Docker"],
+          "importance": "preferred",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["AWS"],
+          "importance": "preferred",
+          "operator": "AND",
+          "review": false
+        },
+        {
+          "skills": ["Communication"],
+          "importance": "preferred",
+          "operator": "AND",
+          "review": false
+        }
+      ],
+      "formats": ["pdf", "docx"]
+    },
+    {
+      "id": "jd-empty-domain",
+      "kind": "jd",
+      "layout": "plain",
+      "lines": [
+        "SYNTHETIC TEST JOB",
+        "Company: Synthetic Underspecified Co",
+        "Role: Associate",
+        "About us",
+        "We value curious applicants. Apply for details."
+      ],
+      "expected_skills": [],
+      "expected_groups": [],
+      "formats": ["pdf", "docx"]
+    },
+    {
+      "id": "jd-unfamiliar-tech",
+      "kind": "jd",
+      "layout": "plain",
+      "lines": [
+        "SYNTHETIC TEST JOB",
+        "Role: Integration Engineer",
+        "Requirements",
+        "- Python and Rust",
+        "Nice to have",
+        "- Apache Arrow"
+      ],
+      "expected_skills": ["Python", "Rust", "Apache Arrow"],
+      "expected_misses": ["Rust", "Apache Arrow"],
+      "formats": ["pdf", "docx"],
+      "note": "Unknown requirements must remain visible in source/review warnings; a partial recognized match must not be labelled complete."
+    }
+  ]
+}
